@@ -7,9 +7,11 @@ environment:
   sdk: '>=3.2.6 <4.0.0'
 
 dependencies:
+  cloud_firestore: ^4.15.8
+  firebase_core: ^2.27.0
   flutter:
     sdk: flutter
-  fluttertoast: ^8.2.4
+  fluttertoast: ^8.0.2
   provider: ^6.1.2
 
 dev_dependencies:

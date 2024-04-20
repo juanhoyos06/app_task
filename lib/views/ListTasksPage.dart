@@ -11,11 +11,6 @@ class ListTasksPage extends StatelessWidget {
   late Function(int index) onDelete;
   late int index;
 
-  ListTasksPage(
-      {super.key,
-      required this.onChanged,
-      required this.onDelete,
-      required this.index});
 
   @override
   Widget build(BuildContext context) {
